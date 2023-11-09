@@ -10,7 +10,7 @@ function lanzarDados() {
         const suma = dado1 + dado2;
         if (suma >= 2 && suma <= 12) {
             const cont = sumas.indexOf(suma);
-            if (cont !== -1) {  // Aquí cambié de index a cont
+            if (cont !== -1) {  
                 apariciones[cont]++;
             } else {
                 sumas.push(suma);
